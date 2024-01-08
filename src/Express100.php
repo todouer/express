@@ -76,7 +76,7 @@ class Express100
             'num' => $tracking_code,
         ];
 
-        if (!empty($mobile)) {
+        if (!empty($phone)) {
             $data['mobiletelephone'] = $phone;
         }
 
